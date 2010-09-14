@@ -6,7 +6,7 @@ License:	GPL v2
 Group:		X11/Applications/Networking
 Source0:	http://downloads.sourceforge.net/lxde/%{name}-%{version}.tar.gz
 # Source0-md5:	2ee64e5fad4a27a522f1eb2da08dd46a
-URL:		http://www.lxde.org/
+URL:		http://wiki.lxde.org/en/LXNM
 BuildRequires:	glib2-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
