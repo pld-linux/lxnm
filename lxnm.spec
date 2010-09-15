@@ -8,7 +8,10 @@ Source0:	http://downloads.sourceforge.net/lxde/%{name}-%{version}.tar.gz
 # Source0-md5:	2ee64e5fad4a27a522f1eb2da08dd46a
 URL:		http://wiki.lxde.org/en/LXNM
 BuildRequires:	glib2-devel
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%undefine	__cxx
 
 %description
 LXNetdaemon is a fast, lightweight, stand-alone network manager.
