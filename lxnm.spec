@@ -1,7 +1,7 @@
 Summary:	Lightweight stand-alone network manager
 Name:		lxnm
 Version:	0.2.2
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		X11/Applications/Networking
 Source0:	http://downloads.sourceforge.net/lxde/%{name}-%{version}.tar.gz
